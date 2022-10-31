@@ -9,15 +9,11 @@
   */
 void print_rev(char *s)
 {
-	int reverse = '0';
+	int string = '0';
 
-	while (s[reverse] != '\0')
-	{
-		reverse++;
-	}
-	while (reverse)
-	{
-		putchar(s[--reverse]);
-	}
+	while (s[string] != '\0')
+		string++;
+	while (string)
+		putchar(s[--string]);
 	putchar('\n');
 }
