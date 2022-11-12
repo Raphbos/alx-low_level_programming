@@ -2,20 +2,20 @@
 
 /**
   * main - Entry point
-  * _putchar - prints _putchar
+  *
+  * print_alphabet - prints all the alphabets
   * Return: Always 0.
   */
 int main(void)
 {
-	char guy[8] = "_putchar";
-	int i;
+	char fish;
 
-	i = 0;
+	fish = 'a';
 
-	while (i < 8)
+	while (fish <= 'z')
 	{
-		 _putchar(guy[i]);
-		 i++;
+		_putchar(fish);
+		fish++;
 	}
 	_putchar('\n');
 	return (0);
