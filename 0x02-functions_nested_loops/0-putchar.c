@@ -10,13 +10,8 @@ int main(void)
 	char guy[8] = "_putchar";
 	int i;
 
-	i = 0;
-
-	while (i < 8)
-	{
-		 _putchar(guy[i]);
-		 i++;
-	}
+	for (i = 0; i < 8; i++)
+		_putchar(guy[i]);
 	_putchar('\n');
 	return (0);
 }
