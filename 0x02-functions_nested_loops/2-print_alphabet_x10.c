@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 
 	while (i < 10)
 	{
-		for (fish = 'a'; fish < 'z'; fish++)
+		for (fish = 'a'; fish <= 'z'; fish++)
 		{
 			_putchar (fish);
 		}
