@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-  * main - check the code
-  *
   * print_alphabet - prints all the alphabets
-  * Return: Always 0.
+  * followed by a new line
+  * Return: Nothing.
   */
-int main(void)
+void print_alphabet(void)
 {
 	char fish;
 
@@ -18,5 +17,4 @@ int main(void)
 		fish++;
 	}
 	_putchar('\n');
-	return (0);
 }
