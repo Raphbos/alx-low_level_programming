@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * _islower - prints 1 if c is lowercase or 0 if otherwise
-  * @c:interger
-  * Return: Always 0.
+  * _islower - a function that checks for lowercase characteri
+  * @c: An input character
+  * Return: 1 if character is lowercase, 0 if otherwise
   */
 int _islower(int c)
 {
@@ -13,8 +13,8 @@ int _islower(int c)
 
 	for (link = 'a'; link <= 'z'; link++)
 	{
-		if (k == c)
-			link = 1;
+		if (link == c)
+			k = 1;
 	}
-	return (link);
+	return (k);
 }
