@@ -12,7 +12,7 @@ int _isalpha(int c)
 
 	int y = 0;
 
-	for ((o = 'a') || (o = 'A'); (o <= 'z') || (o <= 'Z'); o++)
+	for ((o = 'A') || (o = 'a'); (o <= 'z') || (o <= 'Z'); (o++))
 	{
 		if (o == c)
 		{
