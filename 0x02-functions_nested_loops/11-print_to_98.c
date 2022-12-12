@@ -31,8 +31,8 @@ void print_to_98(int n)
 		for (m = n; m > 98; m--)
 		{
 			printf("%d, ", m);
-			printf("%d", 98);
 		}
+		printf("%d", 98);
 	}
 	printf("\n");
 }
