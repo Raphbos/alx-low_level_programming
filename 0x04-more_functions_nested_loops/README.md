@@ -1,1 +1,1 @@
-0-isupper.c is a file that contains a function that check for uppercase charcter.
+0-isupper.c is a file that contains a function that checks for uppercase character.
