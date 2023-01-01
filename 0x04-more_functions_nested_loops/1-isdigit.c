@@ -9,26 +9,11 @@
 int _isdigit(int c)
 {
 	char let;
-	int b;
-	int d;
+	int d = 0;
 
-	for (let = 'A'; let <= 'Z'; let++)
+	for (let = '0'; let <= '9'; let++)
 	{
 		if (let == c)
-		{
-			d = 0;
-		}
-	}
-	for (let = 'a'; let <= 'z'; let++)
-	{
-		if (let == c)
-		{
-			d = 0;
-		}
-	}
-	for (b = '0'; b <= '9'; b++)
-	{
-		if (b == c)
 		{
 			d = 1;
 		}
